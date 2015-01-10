@@ -1,0 +1,36 @@
+
+#header {
+    background-color: #999999;
+
+}
+#reclame {
+    background-color: lavender;
+}
+#selling-texts {
+    background-color: palegoldenrod;
+
+}
+
+#portfolio{
+
+
+}
+#footer {
+    background-color: #999999;
+}
+img {
+    width: 80%;
+
+}
+img.img-polaroid {
+    margin-left: 10%;
+}
+.fp-controlArrow.fp-prev {
+
+    border-color: transparent #000000 transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #000000;
+}

@@ -1,0 +1,76 @@
+#header {
+    background-color: #999999;
+    height: 30px;
+}
+
+.container {
+
+}
+
+.span6.error {
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#Submit_AU_button {
+    width: 220px;
+    height: 35px;
+    font-family: cursive;
+    font-size: x-large;
+    background: mediumseagreen;
+}
+
+.reg_user {
+    width: 200px;
+}
+
+form.form-horizontal {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+input#inputPassword {
+    width: 192px;
+}
+
+input#inputLogin {
+    width: 192px;;
+}
+
+#admin-sector-body {
+
+
+
+}
+
+.dropdown-menu {
+    display: block;
+    position: static;
+}
+
+table th {
+    background-color: black;
+    color: white;;
+}
+
+table td {
+    border-style: inset;
+}
+
+.table {
+
+
+
+}
+input, textarea, .uneditable-input {
+}
+#discription_pf {
+    width: 180px;
+}
+.error {
+    color: red;
+    font-family: cursive;
+    font-size: large;
+}
