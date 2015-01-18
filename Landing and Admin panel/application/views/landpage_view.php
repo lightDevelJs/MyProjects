@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
-   <!-- <link rel="stylesheet" href="<?php /*echo base_url('assets/css/bootstrap-responsive.css'); */?>">-->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap-responsive.css'); ?>">
+
     <link rel="stylesheet" href="<?php echo base_url('assets/css/jquery.fullPage.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/landing.css'); ?>">
     <script src="<?php echo base_url('assets/js/jquery-2.1.1.js'); ?>"></script>

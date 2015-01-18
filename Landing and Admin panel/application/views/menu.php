@@ -1,17 +1,19 @@
-<div class="span2">
-    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-        <li><a tabindex="-1" href="<?php echo base_url('index.php/admin/login') ?>"><i class="icon-home"></i> Main</a>
-        </li>
-        <li><a tabindex="-1" href="<?php echo base_url('index.php/admin/users') ?>"> <i class="icon-user"> </i>
-                Users</a></li>
-        <li><a tabindex="-1" href="<?php echo base_url('index.php/admin/portfolio_view') ?>"><i
-                    class="icon-picture"></i> Portfolio View</a></li>
-        <li><a tabindex="-1" href="<?php echo base_url('index.php/admin/portfolio_list') ?>"><i
-                    class="icon-picture"></i> Portfolio List</a></li>
-        <li><a tabindex="-1" href="<?php echo base_url('index.php/admin/notification') ?>"><i
-                    class="icon-fire"></i>Notifications</a></li>
-        <li class="divider"></li>
-        <li><a tabindex="-1" href="<?php echo base_url('index.php/admin/logout') ?>"><i class="icon-off"></i> LogOut</a>
-        </li>
-    </ul>
+
+<div class="navbar nav-tabs span10">
+    <div class="navbar-inner ">
+        <a class="brand" href="#">Decision UA</a>
+        <ul class="nav nav-tabs">
+           
+            <li class="divider-vertical"></li>
+            <li><a href="<?php echo base_url('index.php/admin/login') ?>">Main</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="<?php echo base_url('index.php/admin/users') ?>">Users</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="<?php echo base_url('index.php/admin/portfolio_list') ?>">Portfolio List</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="<?php echo base_url('index.php/admin/notification') ?>">Notification</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="<?php echo base_url('index.php/admin/logout') ?>"><i class="icon-off"></i>LogOut</a></li>
+        </ul>
+    </div>
 </div>

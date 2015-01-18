@@ -74,3 +74,8 @@ input, textarea, .uneditable-input {
     font-family: cursive;
     font-size: large;
 }
+
+img {
+    width: 150px;
+    height: 120px;
+}

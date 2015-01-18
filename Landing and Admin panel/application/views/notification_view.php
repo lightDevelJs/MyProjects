@@ -6,10 +6,15 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/admin-page.css'); ?>">
     <script src="<?php echo base_url('assets/js/jquery-2.1.1.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
-    <meta charset="UTF-8">
+    <script src="<?php echo base_url('assets/js/ajax.js'); ?>"></script>
+    <meta charset="utf-8">
     <title>Notificatons</title>
 </head>
 <body>
-<?php $this->load->view('menu') ?>
+<div class="container-fluid span10">
+    <div class="span10">
+        <?php $this->load->view('menu') ?>
+
+    </div>
 </body>
 </html>

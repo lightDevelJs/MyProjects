@@ -106,11 +106,11 @@ class Admin extends CI_Controller
     }
 
     public function deleteSelectedPortfolio()
-    {
-        $portfolioId = $this->input->post('radio');
-        $this->AdminModel->deletePortfolio($portfolioId);
-        $this->getPortfolios();
-    }
+{
+    $portfolioId = $this->input->post('radio');
+    $this->AdminModel->deletePortfolio($portfolioId);
+    $this->getPortfolios();
+}
 
     private function do_upload($withoutAdd = false)
     {

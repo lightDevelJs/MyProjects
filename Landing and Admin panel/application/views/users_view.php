@@ -9,10 +9,10 @@
 
     <meta charset="utf-8">
 <body>
-<div class="container-fluid">
-    <div class="row-fluid">
+<div class="container-fluid span10">
+    <div class="span10">
         <?php $this->load->view('menu') ?>
-        <div class="span5" id="admin-sector-body">
+        <div class="span10" >
             <!--Delete user;-->
             <div class="error"> <?php echo validation_errors(); ?></div>
             <div id="result" class="success"></div>
