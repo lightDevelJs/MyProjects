@@ -3,10 +3,6 @@
     height: 30px;
 }
 
-.container {
-
-}
-
 .span6.error {
     color: red;
     font-size: 18px;
@@ -39,12 +35,6 @@ input#inputLogin {
     width: 192px;;
 }
 
-#admin-sector-body {
-
-
-
-}
-
 .dropdown-menu {
     display: block;
     position: static;
@@ -56,19 +46,16 @@ table th {
 }
 
 table td {
-    border-style: inset;
-}
-
-.table {
-
-
 
 }
+
 input, textarea, .uneditable-input {
 }
+
 #discription_pf {
     width: 180px;
 }
+
 .error {
     color: red;
     font-family: cursive;
@@ -79,3 +66,20 @@ img {
     width: 150px;
     height: 120px;
 }
+
+.turn:hover {
+    transition: 1s ease-out;
+    transform: rotate(-11deg);
+
+}
+
+.turnLogo {
+
+}
+
+.turnLogo:hover {
+    border-style: inset ;
+    background-color: #D893A1;
+    transition: background-color 0.5s ease;
+}
+

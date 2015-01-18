@@ -11,7 +11,6 @@
 <div class="container-fluid span10">
     <div class="span10">
         <?php $this->load->view('menu') ?>
-
     </div>
 </div>
 </div>

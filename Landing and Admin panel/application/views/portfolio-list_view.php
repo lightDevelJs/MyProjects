@@ -8,8 +8,8 @@
     <script src="<?php echo base_url('assets/js/ajax.js'); ?>"></script>
     <meta charset="utf-8">
 <body>
-    <div class="container-fluid span10">
-        <div class="span10">
+<div class="container-fluid span10">
+    <div class="span10">
         <?php $this->load->view('menu') ?>
         <div class="span10">
 
@@ -17,7 +17,7 @@
             <div class="error"> <?php echo validation_errors(); ?><?php echo @$error; ?></div>
             <?= form_open('admin/deleteSelectedPortfolio') ?>
 
-            <table class="table table-hover">
+            <table class="table table-hover table-bordered table-condensed">
                 <thead>
                 <tr>
                     <th>Radio</th>
@@ -63,7 +63,7 @@
             <button class="btn btn-danger" type="submit">Delete Selected Portfolio</button>
             </form>
             <?= form_open_multipart('admin/addNewPortfolio'); ?>
-            <table class="table table-hover">
+            <table class="table table-bordered table-condensed">
                 <thead>
                 <tr>
                     <th>Name</th>
@@ -85,8 +85,8 @@
 
         </div>
     </div>
-        </div>
-    </div>
+</div>
+</div>
 </body>
 </html>
 <script>

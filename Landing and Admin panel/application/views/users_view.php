@@ -17,7 +17,7 @@
             <div class="error"> <?php echo validation_errors(); ?></div>
             <div id="result" class="success"></div>
             <?= form_open('admin/deleteSelectedUser'); ?>
-            <table class="table table-hover">
+            <table class="table table-hover table-bordered table-condensed">
                 <thead>
                 <tr>
                     <th>Radio</th>
@@ -53,7 +53,7 @@
             </form>
             <!--Add user;-->
             <form method="post" action="<? echo base_url('index.php/admin/addNewUser'); ?>">
-                <table class="table ">
+                <table class="table  table-bordered table-condensed">
                     <thead>
                     <tr>
                         <th>Name</th>
