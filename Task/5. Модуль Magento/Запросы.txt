@@ -1,0 +1,2 @@
+http://example.local/clist?token=qwerty
+http://example.local/clist/view?id=2&token=qwerty

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+
+        <Aidalab_Cdata>
+
+            <active>true</active>
+
+            <codePool>local</codePool>
+
+        </Aidalab_Cdata>
+
+    </modules>
+</config>
